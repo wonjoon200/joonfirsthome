@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼태그연습2</title>
+</head>
+<body>
+    <form action="login.php">
+    <table border="1">
+        <tr><td colspan="2">나머지 폼 태그 연습</td></tr>
+        <tr><td>색상</td><td><input name="color" type="color" value="#0000FF"></td></tr>
+        <tr><td>달입력</td><td><input name="mon" type="month" value="2022-05"></td></tr>
+        <tr><td>주입력</td><td><input name="wek" type="week" value="2022-W15"></td></tr>
+        <tr><td>날짜입력</td><td><input type="data" value="2022-04-18"></td></tr>
+        <tr><td>키입력</td><td><input type="number" min="120" max="200" step="1"></td></tr>
+        <tr><td>몸무게</td><td><input type="range" min="30" max="120" list="ran">
+        <datalist id="ran">
+            <option value="10" label="Low"></option>
+            <option value="50" label="Medium"></option>
+            <option value="100" label="Max"></option>
+
+        </datalist>
+        </td>
+        </tr>
+        <tr><td>이메일</td><td><input type="email" placeholder="abc@daum.net"></td></tr>
+    </table>
+    
+    <fieldset>
+        <legend>회원정보</legend>
+        이메일:<input type="mail" placeholder="abc@naver.com"><br>
+        주소:<input type="text"><br>
+        전화번호:<input type="tel" placeholder="010-0000-0000"
+    </fieldset>
+</form>
+</body>
+</html>
