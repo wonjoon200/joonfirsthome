@@ -1,0 +1,17 @@
+<style>
+body{
+    background-color: mistyrose;
+}
+h3{
+    color: blueviolet;
+}
+hr{
+    border: yellowgreen 5px solid;
+    
+}
+span{
+    background-color: yellow;
+    color: blue;
+    font-size: 20px;
+}
+</style>
